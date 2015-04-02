@@ -5,6 +5,8 @@
 " Purge previous auto commands (in case vimrc is run twice)
 autocmd!
 
+let loaded_delimitMate = 1
+
 " Load pathogen
 execute pathogen#infect()
 
@@ -490,3 +492,4 @@ endfunc
 if filereadable($HOME . "/.vimrc.local")
     source ~/.vimrc.local
 endif
+
