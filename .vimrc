@@ -20,8 +20,8 @@ if has("gui_macvim")
     set background=light
     colorscheme solarized
 else
-    set background=dark
-    colorscheme foursee
+    set background=light
+    colorscheme kalisi
 endif
 
 " make sure that cyrillic input is supported
