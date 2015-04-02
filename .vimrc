@@ -190,7 +190,7 @@ fixdel
 let loaded_matchparen = 1
 
 " netRW: Open files in a split window
-let g:netrw_browse_split = 1
+"let g:netrw_browse_split = 1
 
 " Make sure cursor is not blinking
 set gcr=a:blinkwait0,a:block-cursor
