@@ -231,6 +231,7 @@ let g:proj_flags="FisLt"
 let g:proj_window_width = 40
 
 " Syntastic
+let g:syntastic_cpp_compiler_options = "-std=c++11 -Wall -pthread"
 let g:syntastic_mode_map = { 'mode': 'active',
                            \ 'active_filetypes': [],
                            \ 'passive_filetypes': [] }
