@@ -10,4 +10,8 @@ cat .tmux.conf >> ~/.tmux.conf
 
 exec bash
 
+rm .vimrc
 ln -s ~/.vim/.vimrc ~/.vimrc
+
+rm .tmux.conf
+ln -s ~/.vim/.tmux.conf ~/.tmux.conf
