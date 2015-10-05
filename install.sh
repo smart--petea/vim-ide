@@ -1,3 +1,4 @@
+apt-get install exuberant-ctags
 apt-get install tmux
 git submodule init
 git submodule update
