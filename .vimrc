@@ -235,7 +235,7 @@ let g:syntastic_cpp_compiler_options = "-std=c++0x -Wall -pthread"
 let g:syntastic_mode_map = { 'mode': 'active',
                            \ 'active_filetypes': [],
                            \ 'passive_filetypes': [] }
-
+"
 " Command-T Plugin
 let g:CommandTMaxHeight = 25
 " never show auto-generated api-docs files
@@ -502,3 +502,5 @@ command! E Explore "syntactic overwrite my Explore command
 "endw
 "
 "set timeout ttimeoutlen=50
+
+set nocompatible
