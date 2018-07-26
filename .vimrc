@@ -1,3 +1,8 @@
+call plug#begin('~/.vim/plugged')
+Plug 'StanAngeloff/php.vim'
+Plug 'noahfrederick/vim-laravel'
+Plug 'jwalton512/vim-blade'
+call plug#end()
 "
 " MAIN CUSTOMIZATION FILE
 "
