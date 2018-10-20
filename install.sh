@@ -1,13 +1,13 @@
-apt-get install exuberant-ctags
-apt-get install tmux
+#apt-get install exuberant-ctags
+#apt-get install tmux
 
 
 git submodule init
 git submodule update
 
 #typescript config
-cd  ~/.vim/bundle/vimproc.vim 
-make
+#cd  ~/.vim/bundle/vimproc.vim 
+#make
 
 
 if [ -f ~/.vimrc ];
@@ -22,6 +22,9 @@ then
 fi
 ln -s ~/.vim/.tmux.conf ~/.tmux.conf
 
+ln -s ~/.vim/vim-plug/plug.vim ~/.vim/autoload/plug.vim 
+
 echo 'alias tmux="TERM=screen-256color-bce tmux"' >> ~/.bashrc
 exec bash
+
 
